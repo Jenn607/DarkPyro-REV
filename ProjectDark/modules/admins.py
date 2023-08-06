@@ -15,7 +15,7 @@ from pyrogram.types import ChatPermissions, ChatPrivileges, Message
 from config import CMD_HANDLER as cmd
 from ProjectDark.helpers.basic import edit_or_reply
 from ProjectDark.modules.help import add_command_help
-from projectdark.helpers.adminHelpers import DEVS
+from projectDark.helpers.adminHelpers import DEVS
 from ProjectDark.utils.misc import extract_user, extract_user_and_reason, list_admins
 
 unmute_permissions = ChatPermissions(
